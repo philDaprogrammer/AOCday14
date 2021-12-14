@@ -16,7 +16,6 @@ public class Solution {
         ArrayList<Character> newPolymer = this.input.template;
 
         for (int i=0; i < steps; i++) newPolymer = this.solveRec(newPolymer);
-
         this.findDifference(newPolymer);
     }
 

@@ -19,7 +19,6 @@ public class parser {
             FileInputStream stream = new FileInputStream(this.fileName);
             Scanner sc             = new Scanner(stream);;
 
-
             if (sc.hasNext()) {
                 for  (char c : sc.next().toCharArray()) template.add(c);
             }
